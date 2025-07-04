@@ -1,0 +1,40 @@
+.comment {
+  margin-bottom: 8px;
+  padding-left: 52px; /* Indent comments */
+}
+
+.comment-author {
+  font-weight: 600;
+  margin-bottom: 4px;
+}
+
+.comment-content {
+  background-color: #f0f2f5;
+  border-radius: 18px;
+  padding: 8px 12px;
+  display: inline-block;
+}
+
+.comment-actions {
+  margin-top: 4px;
+  margin-left: 12px;
+}
+
+.comment-actions .like-button {
+  background-color: transparent;
+  border: none;
+  color: #65676b;
+  padding: 0;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.comment-actions .like-button.liked {
+  color: #1877f2;
+}
+
+.comment-actions span {
+  margin-left: 8px;
+  color: #65676b;
+  font-size: 12px;
+}
